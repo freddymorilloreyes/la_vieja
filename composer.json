@@ -1,0 +1,20 @@
+{
+    "name": "freddy/la_vieja",
+    "description": "ejemplo de la vieja con composer y twig",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\":"src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freddy Morillo",
+            "email": "freddymr1616@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.5"
+    }
+}
